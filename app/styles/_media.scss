@@ -1,0 +1,207 @@
+@media (max-width: 1400px) {
+  .header-content .header-content-container .header-text {
+    font-size: 54px;
+  }
+
+  .latest-job-title {
+    font-size: 50px !important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  } 
+  .navbar-toggler {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .static-navbar,
+  .header-content,
+  .collaborators-list,
+  .latest-job-content,
+  .footer-links {
+    padding-inline: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .collaborators-list .collabators-logos {
+    max-width: 700px;
+    gap: 26px;
+  }
+
+  .header-content {
+    min-height: auto;
+    padding-bottom: 80px;
+  }
+
+  .static-navbar,
+  .header-content,
+  .collaborators-list,
+  .latest-job-content,
+  .footer-links {
+    padding-inline: 40px;
+  }
+
+  .header-content .header-content-container .header-text {
+    font-size: 40px;
+  }
+
+  .latest-job-title {
+    font-size: 30px !important;
+  }
+
+  .footer-navigation {
+    gap: 65px;
+  }
+  .page-links {
+    justify-content: space-between !important;
+  }
+
+  .cards .job-card {
+    width: 92%;
+    .btn-view {
+      width: 100%;
+    }
+  }
+
+  .header-content .header-content-container .job-form {
+    button,
+    input {
+      font-size: 14px;
+    }
+    button {
+      padding: 0;
+    }
+    input::placeholder {
+      font-size: 14px;
+    }
+  }
+
+  .latest-job-content {
+    padding-top: 30px;
+  }
+  .cards .job-card {
+    padding: 35px;
+  }
+}
+
+@media (max-width: 780px) {
+  .cards .job-card h2 {
+    font-size: 22px;
+  }
+
+  .cards .job-card {
+    gap: 15px;
+    height: 390px;
+  }
+
+  .page-links {
+    gap: 48px;
+  }
+  .cards .job-card {
+    padding: 20px;
+  }
+  .header-content .header-content-container .job-form {
+    button,
+    input {
+      height: 50px;
+    }
+  }
+  .header-content .header-content-container .header-text {
+    font-size: 30px;
+    line-height: 59px;
+  }
+  .header-content .header-content-container .small-header {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  .header-content {
+    padding-block: 40px;
+  }
+  .latest-job-content {
+    padding-block: 40px;
+    .latest-job .latest-job-title {
+      line-height: 45px;
+    }
+  }
+  .collaborators-list {
+    padding-block: 40px;
+  }
+
+  .cards {
+    padding-bottom: 34px;
+  }
+
+  .footer-links {
+    padding-block: 40px;
+  }
+  .footer-links .footer-navigation h2 {
+    font-size: 27px;
+  }
+
+  .header-content .header-content-container .header-img {
+    width: 90%;
+  }
+  .footer-navigation {
+    gap: 40px;
+  }
+
+  .microsoft {
+    width: 110px;
+  }
+  .oracle {
+    width: 122px;
+  }
+  .atlassian {
+    width: 140px;
+  }
+  .cloudflare {
+    width: 200px;
+  }
+  .vmware {
+    width: 120px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .cards .job-card {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .static-navbar,
+  .header-content,
+  .collaborators-list,
+  .latest-job-content,
+  .footer-links {
+    padding-inline: 20px;
+  }
+  .latest-job-content .view-more-link {
+    padding-top: 0;
+  }
+
+  .static-navbar .navbar-content .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-toggler {
+    padding: 5px;
+  }
+
+  .latest-job-content {
+    padding-top: 20px;
+  }
+  .cards {
+    padding-top: 0;
+  }
+  .page-links {
+    gap: 25px;
+  }
+  .footer-navigation {
+    gap: 20px;
+  }
+}
